@@ -1,0 +1,89 @@
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .b-color{
+    background-color: #002033;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  
+  }
+  .email-input{
+    padding: 15px;
+    border-color: white;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #002033;
+    width: 200px;
+    color: white;
+  }
+  .f-icon{
+  height: 25px;
+  padding-top: 20px;
+  margin-left: 30px;
+  }
+  .f-button{
+    background-color: #fdb35e;
+    color: white;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    
+  }
+  .fb-icon{
+    margin-left:150px;
+    height: 25px;
+  padding-top: 20px;
+  }
+  .div-flex{
+    display: flex;
+  }
+  
+  .f-img{
+    height: 300px;
+    width: 270px;
+  }
+  .f-text-color{
+    color: white;
+    display: flex;
+    column-gap: 240px;
+  }
+  .hr-color{
+    color: white;
+    padding-top:10px;
+  
+  }
+  .span{
+    margin-left: 75%;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 8px;
+    
+  }
+  .modal-button2{
+    background-color: none;
+    border: none;
+    color: white;
+
+  }
+  .MuiButton-contained{
+    text-transform: lowercase !important;
+    background-color: none;
+    box-shadow: none;
+
+  }
+  .white{
+    text-decoration: none;
+    color: white;
+  }

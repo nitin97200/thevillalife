@@ -1,0 +1,95 @@
+
+.header-container {
+    background-color:rgb(0,0, 0, 0);
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .header-container.active{
+      background-color:#002033
+  }
+  
+  .h-logo{
+    margin-left: 40px;
+    width: 200px;
+    height: 80px;
+    padding: 25px;
+  
+  }
+  .h-flex{
+    display: flex;
+  }
+  /* .hdiv2{
+    width: 200px;
+    height: 60px;
+   
+    
+  } */
+  .h-input{
+    height: 60px;
+    margin-top: 31px;
+    width: 549px;
+    border-radius: 49px;
+    position: absolute;
+    right: 650px;
+    border: none;
+  }
+  .modal-button{
+    background: none;
+    border: none;
+    color: white;
+    margin-top: 59px;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .wait-css{
+    width: 74px;
+    color: black;
+    font-size: 15px;
+    margin-left: 41px;
+    margin-top: 46px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 34px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .sign-in{
+    height: 43px !important;
+    margin-top: 46px !important;
+    margin-left: 39px !important;
+    background-color:rgb(0,0, 0, 0)!important;
+    color: white !important;
+    border: 1px solid white !important;
+    width: 106px !important;
+    border-radius: 55px !important;
+  }
+  .search-bar{
+    left: -230px;
+    position: absolute;
+    right: 0;
+    width: 541px;
+    background-color: white;
+    height: 60px;
+    border-radius: 40px;
+    margin-top: 41px;
+    margin-left: 555px;
+    display: flex;
+  }
+  ul.MuiList-root.MuiMenu-list li {
+    padding: 10px!important;
+}
+.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8, .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1 {
+  border-radius: 30px;
+  margin-top: 20px;
+  min-width: 326px;
+  padding: 12px!important;
+  opacity: 1;
+  transform: none;
+  transition: opacity 258ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 172ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  top: 77px;
+  left: 1250px;
+  transform-origin: 119.125px 0px;
+}
